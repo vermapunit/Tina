@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tina Verma | Portfolio</title>
   <style>
-    /* Base Reset */
     * {
       margin: 0;
       padding: 0;
@@ -70,12 +69,18 @@
       box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
     }
 
-    #home img {
+    #home img.profile {
       width: 180px;
       height: 180px;
       border-radius: 50%;
       object-fit: cover;
       border: 5px solid #ba68c8;
+    }
+
+    #home img.logo {
+      max-width: 200px;
+      height: auto;
+      margin: 10px 0;
     }
 
     #home div {
@@ -165,7 +170,7 @@
         text-align: center;
       }
 
-      #home img {
+      #home img.profile {
         margin: 0 auto;
       }
     }
@@ -186,11 +191,12 @@
 
     <!-- Home Section -->
     <section id="home">
-      <img src="WhatsApp Image 2025-07-19 at 3.08.12 PM.jpeg" alt="Tina Verma Photo" />
+      <img src="WhatsApp Image 2025-07-19 at 3.08.12 PM.jpeg" alt="Tina Verma Photo" class="profile" />
       <div>
         <h2>CEO MESSAGE</h2>
+        <img src="logo.png" alt="Company Logo" class="logo" />
         <p>
-          Hi, I'm <strong>Tina Verma</strong>-A Passionate entrepreneur in the IT software and e-commerce space. As the Co-Founder & CEO of Paritex Innovation Pvt. Ltd., founded by Punit Verma, she is dedicated to delivering innovative digital solutions and driving online business growth with a strong focus on technology, creativity, and customer experience.
+          A Passionate entrepreneur in the IT software and e-commerce space. As the Co-Founder & CEO of Paritex Innovation Pvt. Ltd., founded by Punit Verma, she is dedicated to delivering innovative digital solutions and driving online business growth with a strong focus on technology, creativity, and customer experience.
         </p>
       </div>
     </section>
@@ -199,11 +205,9 @@
     <section id="gallery">
       <h2>Gallery</h2>
       <div class="gallery-photos">
-        <!-- Add your photos here -->
         <img src="secound" alt="Gallery Image 1" />
         <img src="thired" alt="Gallery Image 2" />
         <img src="aadi" alt="Gallery Image 3" />
-        <!-- Add more images as needed -->
       </div>
     </section>
 
